@@ -2,14 +2,12 @@ body{
   background-color: skyblue;
 }
 
-.over{
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
   display: flex;
-  justify-content: space-between;
-}
-
-.top_image{
-
-
+  justify-content: flex-end;
 }
 
 .title{
@@ -22,7 +20,7 @@ body{
   color: white;
 }
 
-.subtitle{
+.profile, .career, .item{
   margin: 50px 20px 0px 20px;
   font-family: 'HiraMinProN-W3';
   font-size: 40px;
@@ -36,4 +34,9 @@ body{
 .work_image{
   width: 30vw;
   height: 300px;
+}
+
+.over{
+  display: flex;
+  justify-content: space-between;
 }
